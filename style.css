@@ -1,0 +1,124 @@
+/* General page background */
+body {
+  margin: 0;
+  padding: 0;
+  background: url("images/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #dadada;
+  font-family: "Segoe UI Semilight", Tahoma, Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+/* Optional overlay for readability */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+/* BIG HEADER */
+.big-header {
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  tab-size: 4;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Segoe UI Semilight", Tahoma, Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+  scrollbar-color: rgba(35, 105, 47, 0.8) rgba(31, 31, 31, 0.65);
+  cursor: url("images/cursors/normal.cur"), auto;
+  background: linear-gradient(180deg, rgba(148, 148, 148, 0.9) 0%, rgba(71, 71, 71, 0.9) 20%, rgba(19, 19, 19, 0.9) 40%, rgba(7, 7, 7, 0.93) 100%);
+  border-right: 2px solid #3d3d3d;
+  border-left: 2px solid #3d3d3d;
+  border-top: 2px solid #3d3d3d;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 10;
+  margin-top: 0px;
+  border-radius: 70px 80px 0px 0px;
+  padding: 15px 10px 13px 30px;
+  position: static;
+  width: auto;
+  font-size: 26px;
+}
+
+/* OUTER TITLE */
+.outer-title {
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  tab-size: 4;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  scrollbar-color: rgba(35, 105, 47, 0.8) rgba(31, 31, 31, 0.65);
+  cursor: url("images/cursors/normal.cur"), auto;
+  color: #dadada;
+  background: linear-gradient(to bottom, rgba(119, 119, 119, 0.925) 0%, rgba(97, 97, 97, 0.925) 10%, rgba(35, 35, 35, 0.925) 55%, rgba(0, 0, 0, 0.925) 56%, rgba(0, 0, 0, 0.925) 60%, rgba(32, 32, 32, 0.925) 100%);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+  border-top: 1px solid #858585;
+  border-left: 1px solid #616161;
+  border-bottom: 3px solid #161616;
+  border-right: 1px solid #616161;
+  border-radius: 5px;
+  padding: 2px 5px 4px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 970px;
+  font-weight: normal;
+  margin: 10px auto 5px auto;
+  position: relative;
+  font-size: 16px;
+}
+
+/* SECTION BOX */
+.section-box {
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  tab-size: 4;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Segoe UI Semilight", Tahoma, Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+  scrollbar-color: rgba(35, 105, 47, 0.8) rgba(31, 31, 31, 0.65);
+  cursor: url("images/cursors/normal.cur"), auto;
+  color: #dadada;
+  background-image: url("images/aero_glass.png"), linear-gradient(rgba(48, 48, 48, 0.4), rgba(26, 26, 26, 0.4), rgba(26, 26, 26, 0.4));
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+  border-bottom: 1px solid #525252;
+  border-top: 1px solid #797979;
+  border-left: 1px solid #777777;
+  border-right: 1px solid #797979;
+  border-radius: 7px;
+  padding: 7px;
+  margin: 11px auto;
+  max-width: 970px;
+}
+
+/* INNER HEADER */
+.inner-header {
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  tab-size: 4;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Segoe UI Semilight", Tahoma, Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+  scrollbar-color: rgba(35, 105, 47, 0.8) rgba(31, 31, 31, 0.65);
+  cursor: url("images/cursors/normal.cur"), auto;
+  color: #dadada;
+  border-top: 1px solid #5e5e5e;
+  border-left: 1px solid #5a5a5a;
+  border-bottom: 1px solid #4b4b4b;
+  border-right: 1px solid #4b4b4b;
+  background: rgba(27, 27, 27, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+  border-radius: 6px;
+  max-width: 935px;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+}
