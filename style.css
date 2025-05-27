@@ -6,6 +6,7 @@ body {
   background-size: cover;
   color: #dadada;
   font-family: "Segoe UI Semilight", Tahoma, Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
+  border-radius: 10px;
 }
 
 /* Optional overlay for readability */
@@ -123,3 +124,4 @@ body::before {
   margin: auto;
   margin-bottom: 10px;
 }
+
